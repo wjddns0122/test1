@@ -29,6 +29,7 @@ int add(int x, int y, int z) => x + y + z;
 // 뺴기
 int subtract(int x, int y, int z) => x - y - z;
 
+// 계산
 int calculate(int x, int y, int z, Operation operation) {
   return operation(x, y, z);
 }
