@@ -3,10 +3,17 @@ void main() {
   a.sayJob();
   Student b = Student(18, 'skill', 'dojob');
   b.sayStudent();
+  b.sayEat();
+  b.doStudy();
   Teacher c = Teacher(40, 'skill', 'dojob');
   c.sayTeacher();
+  c.sayEat();
+  c.doWork();
   Police d = Police(35, 'skill', 'dojob');
   d.sayPolice();
+  d.sayEat();
+  d.doStudy();
+  d.doTeaching();
 }
 
 class job {
